@@ -1,16 +1,63 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
- @import 'bootstrap';
+@import 'bootstrap';
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', courier;
+  }
+  .page-body {
+    background-color: #f6f6f6;
+    text-align: left;
+    text-emphasis-color: #000000;
+    font-size: 40px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-family:'Courier New', courier;
+  }
+  
+  .buddy-up {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+  }
+
+header {
+    font-size: 30px;
+    text-align: left;
+    text-emphasis-color: #f6f6f6;
+    background-color: #023246;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Courier New', courier;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    
+    .dud-logo{
+      width: 100px;
+      margin-left: 20px;
+    }
+
+    .nav-links {
+        font-family:'Courier New', courier;
+        display: flex;
+        flex-direction:row;
+        align-items: flex-end;
+        padding-right: 50px;
+        text-emphasis-color: #f6f6f6;
+      }
+
+      footer {
+        font-family:'Courier New', courier;
+        font-size: 20px;
+        position: flex;
+        bottom: 0;
+        width: 100%;
+        background-color:#023246;
+        text-emphasis-color: #f6f6f6;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
