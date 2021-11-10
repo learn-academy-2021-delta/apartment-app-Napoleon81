@@ -29,4 +29,4 @@ class ApartmentIndex extends Component {
     )
   }
 }
-export default ApartmentIndex
+export default ProctectedIndex

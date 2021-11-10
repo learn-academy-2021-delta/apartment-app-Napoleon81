@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Form, FormGroup, Input, Button, Label} from 'reactstrap'
-import { Redirect } from 'react-router-dom'
+
 
 class ApartmentNew extends Component {
   constructor(props){

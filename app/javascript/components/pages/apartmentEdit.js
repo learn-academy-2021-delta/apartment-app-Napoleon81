@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap'
-import { Redirect } from 'react-router-dom'
+
 
 class ApartmentEdit extends Component {
   constructor(props){
@@ -179,6 +179,5 @@ class ApartmentEdit extends Component {
       </div>
     )
   }
-
 }
 export default ApartmentEdit

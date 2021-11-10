@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+#frozen_string_literal: true
 
 # Assuming you have not yet modified this file, each configuration option below
 # is set to its default value. Note that some are commented out while others
@@ -16,18 +16,18 @@ Devise.setup do |config|
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '947f812725e9517b9db91ab9de8df957fc4761f4fd8c81756ffba380b5934fe62bced9b56004bbb3c20cd94ecef1c1abf08a4f3fbeeed68af65bdefbe5033fa0'
 
-  # ==> Controller configuration
-  # Configure the parent class to the devise controllers.
-  # config.parent_controller = 'DeviseController'
+#   ==> Controller configuration
+#   Configure the parent class to the devise controllers.
+#  config.parent_controller = 'DeviseController'
 
-  # ==> Mailer Configuration
-  # Configure the e-mail address which will be shown in Devise::Mailer,
-  # note that it will be overwritten if you use your own mailer class
-  # with default "from" parameter.
+#   ==> Mailer Configuration
+#    Configure the e-mail address which will be shown in Devise::Mailer,
+#    note that it will be overwritten if you use your own mailer class
+#   with default "from" parameter.
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
 
-  # Configure the class responsible to send e-mails.
-  # config.mailer = 'Devise::Mailer'
+  # evisConfigure the class responsible to send e-mails.
+  #  config.mailer = 'De::Mailer'
 
   # Configure the parent class responsible to send e-mails.
   # config.parent_mailer = 'ActionMailer::Base'

@@ -1,4 +1,4 @@
-let duds = [
+let MockApartments = [
     {
       id: 1,
       name: "Desert Hearts", 
@@ -107,7 +107,7 @@ let duds = [
     
 ]
 
-  export default apartments
+  export default MockApartments
   
 
   
